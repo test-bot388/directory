@@ -1,0 +1,104 @@
+
+body {
+    background-color: rgb(255, 173, 244);
+    margin: 0;
+}
+.hero {
+    background-image: url(http://3.bp.blogspot.com/-fO30xveHpNU/UmZAnxoAOHI/AAAAAAAAIOk/crLDrhQPcfw/s1600/827238666_SM_29_123_997lo.jpg);
+    background-size: cover;
+    background-position: center -670px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+
+
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+}
+.hero-text {
+    justify-content: center;
+    position: absolute;
+    font-family: "helvetica";
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    margin: 5px;
+}
+
+    /*gallery image*/
+.gallery {
+    display: flex;
+    float: left;
+    padding: 0px;
+    opacity: 0.9;
+    width: 18%;
+    height: 350px;
+    margin: 7px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+.gallery:hover {
+    outline: 5px solid rgb(255, 212, 71);
+}
+
+.gallery img {
+    width: auto;
+    height: 100%;
+    max-height: 350px;
+}
+.gallery img:hove {
+    opacity: 1.0;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgba(255, 196, 0, 0.801);
+
+}
+
+/*gallery video*/
+.gallery-video {
+    display: flex;
+    float: left;
+    padding: 5px;
+    opacity: 0.9;
+    width:32%;
+    height: 300px;
+    
+
+}
+.gallery-video img {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+}
+.gallery-video img:hover {
+    opacity: 1.0;
+    outline-style: solid;
+    outline-width: 5px;
+    outline-color: rgba(255, 196, 0, 0.801);
+
+}
+h2 {
+    font-family: "helvetica";
+}
+
+
+@media only screen and (max-width: 400px) {
+
+    .hero {
+        background-position: center -670px;
+    
+        height: 30vh;
+    }
+
+    h1 {
+        background-color: red;
+    }
+
+
+
+
+}
