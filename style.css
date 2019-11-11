@@ -6,7 +6,7 @@ body {
 .hero {
     background-image: url(http://3.bp.blogspot.com/-fO30xveHpNU/UmZAnxoAOHI/AAAAAAAAIOk/crLDrhQPcfw/s1600/827238666_SM_29_123_997lo.jpg);
     background-size: cover;
-    background-position: center -550px;
+    background-position: center -580px;
     background-repeat: no-repeat;
     background-attachment: fixed;
     position: relative;
@@ -62,17 +62,17 @@ body {
 .gallery-video {
     display: flex;
     float: left;
+    justify-content: center;
     padding: 5px;
     opacity: 0.9;
-    width:32%;
-    height: 300px;
+    width: 85%;
+    height: auto;
     
 
 }
 .gallery-video img {
     width: 100%;
     height: auto;
-    max-height: 300px;
 }
 .gallery-video img:hover {
     opacity: 1.0;
