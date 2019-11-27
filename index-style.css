@@ -83,6 +83,8 @@ img {
     position: absolute;
     background-color: rgb(255, 255, 255);
     min-width: 160px;
+    font-family: helvetica;
+    z-index: 1;
 }
 .dropdown-content a {
     color: black;
