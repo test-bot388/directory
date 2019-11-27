@@ -57,6 +57,13 @@ img {
     width: 100%;
     height: auto;
 }
+
+
+
+
+.header {
+    display: block;
+}
 .dropbtn {
     background-color: rgb(255, 255, 255);
     color: black;
@@ -73,6 +80,8 @@ img {
     position: absolute;
     background-color: rgb(255, 255, 255);
     min-width: 160px;
+    right: 10px;
+    top: 10px;
 }
 .dropdown-content a {
     color: black;
