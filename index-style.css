@@ -42,6 +42,9 @@ h1 {
     font-family: "helvetica";
     text-align: center;
     display: inline;
+    position: relative;
+    left: 50%;
+    top: 50%
 }
 
 .index-h2 {
@@ -64,16 +67,16 @@ img {
 .header {
     display: block;
 }
+.dropdown {
+    position: relative;
+    display: inline;
+}
 .dropbtn {
     background-color: rgb(255, 255, 255);
     color: black;
     padding: 5px;
     font-size: 12px;
     border: none;
-}
-.dropdown {
-    position: relative;
-    display: inline;
 }
 .dropdown-content {
     display: none;
