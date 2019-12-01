@@ -1,6 +1,9 @@
 body {
     background-color: rgb(255, 170, 192);
     width: 100vw;
+    position: static;
+    display: block;
+    margin: 0px;
 }
 .index-header {
     background-color: rgb(248, 248, 248);
@@ -41,10 +44,11 @@ body {
 h1 {
     font-family: "helvetica";
     text-align: center;
+    align-content: center;
     display: block;
     position: relative;
-    left: 50%;
-    top: 50%
+    margin: 0px;
+    
 }
 
 .index-h2 {
@@ -65,36 +69,49 @@ img {
 
 
 .header {
-    display: inline-block;
-    position: relative
+    display: block;
+    position: relative;
+
+    background-image: url(http://1.bp.blogspot.com/-pxZ3YYhwJJE/UyBC6CSHsSI/AAAAAAAAMHw/qM_ByUsZV6A/s1600/21.jpg);
+    background-size:  (200);
+    background-position: center +25%;
+    
+    margin: 0px;
+    height: 30vh;
+
 }
 .dropdown {
-    position: relative;
-    display: inline;
-    right: 5%
+    position: absolute;
+    display: block;
+    margin: 5px;
+    bottom: 0px;
 }
 .dropbtn {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255, 0.4);
     color: black;
     padding: 5px;
-    font-size: 24px;
+    font-size: 40px;
     font-family: helvetica;
     border: none;
+    border-radius: 8px;
 }
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: rgb(255, 255, 255);
-    min-width: 160px;
-    border-style: solid;
-    border-width: 2px;
+    min-width: 220px;
     font-family: helvetica;
+    font-size: 24px;
     z-index: 1;
 }
 .dropdown-content a {
     color: black;
     padding: 12px 16px;
     display: block;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(134, 134, 134);
+    text-decoration: none;
 }
 .dropdown-content a:hover {
     background-color: #ddd;
