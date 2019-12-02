@@ -6,7 +6,7 @@ body {
 .hero {
     background-image: url(http://3.bp.blogspot.com/-dX4KkIL-8yA/UmZAir_rd7I/AAAAAAAAIN8/teaYfDGzSo4/s1600/827228483_SM_07_123_210lo.jpg);
     background-size: 100%;
-    background-position: center -600px;
+    background-position: center +20%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     position: relative;
