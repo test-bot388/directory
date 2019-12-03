@@ -82,12 +82,12 @@ img {
 }
 .forehead {
     display: block;
-    position: absolute;
+    position: relative;
     top: 0px;
     background-color: black;
 }
 .dropdown {
-    position: absolute;
+    position: relative;
     display: inline-block;
     margin: 5px;
     bottom: 0px;
