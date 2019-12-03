@@ -80,21 +80,25 @@ img {
     height: 30vh;
 
 }
+.forehead {
+    display: block;
+    position: absolute;
+    top: 0px;
+    background-color: black;
+}
 .dropdown {
     position: absolute;
-    display: block;
+    display: inline-block;
     margin: 5px;
     bottom: 0px;
     right: 0px;
 }
 .dropbtn {
-    background-color: rgb(255, 255, 255, 0.4);
-    color: black;
+    color: white;
     padding: 5px;
-    font-size: 40px;
+    font-size: 36px;
     font-family: helvetica;
     border: none;
-    border-radius: 8px;
 }
 .dropdown-content {
     display: none;
