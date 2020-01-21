@@ -83,10 +83,13 @@ img {
 }
 .forehead {
     display: block;
-    position: relative;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
     top: 0px;
-    height: 5vh;
+
     background-color: black;
+    padding: 6px;
 }
 .dropdown {
     position: relative;
@@ -96,11 +99,13 @@ img {
     right: 0px;
 }
 .dropbtn {
-    color: white;
+    color: rgb(90, 90, 90);
     padding: 5px;
-    font-size: 18px;
+    font-size: 24px;
     font-family: helvetica;
     border: none;
+    border-radius: 3px;
+
 }
 .dropdown-content {
     display: none;
