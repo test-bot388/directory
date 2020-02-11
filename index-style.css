@@ -131,3 +131,11 @@ img {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+.search {
+    display: block;
+    margin: 5;
+    float: right;
+    right: 15;
+    position: relative;
+
+}

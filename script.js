@@ -19,6 +19,9 @@ console.log("Does Mark have a greater BMI than John?" + markGreaterBMI)
 
 ********/
 
+
+/******
+
 var john;
 var johngame1 = 89;
 var johngame2 = 120;
@@ -53,4 +56,34 @@ else if (maryaverage > johnaverage && mikeaverage) {
 }
 else console.log('John, Mike, and Mary tied in average scores')
 
+******/
 
+var john = {
+    height:2.6,
+    fullName:" John Smith",
+    weight: "160",
+    isMarried: "false",
+    bills: [128, 48, 268, 180, 42],
+    calcTips: function(){
+        this.tips = [];
+        this.finalValues = [];
+
+        for (var i = 0; i < this.bills.length; i++)
+        {
+            // determine percentage based on tipping rules
+            var percentage;
+            var bill = this.bills[i];
+
+            if (bill < 50) {
+                percentage = 0.2
+            } else if (bill >= 50 && < 200) {
+                percentage = 0.15
+            } else {
+                percentage = 0.1
+            }
+
+            //add results to corresponding arrays
+            this.tips[i] = bill * percentage
+        }
+    }
+}
