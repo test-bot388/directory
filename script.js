@@ -57,7 +57,7 @@ else if (maryaverage > johnaverage && mikeaverage) {
 else console.log('John, Mike, and Mary tied in average scores')
 
 ******/
-
+/**********************
 var john = {
     height:2.6,
     fullName:" John Smith",
@@ -85,5 +85,33 @@ var john = {
             //add results to corresponding arrays
             this.tips[i] = bill * percentage
         }
+    }
+}
+*********************** */
+
+
+let jim = {
+    bills: [128, 48, 268, 180, 42],
+    firstName: jim,
+    calcTips: function() {
+
+        //counter
+        for (var i = 0; i <= this.bills.length; i++)
+
+        let tips = [];
+        let finalCharge = [];
+        let percentage ;
+        let bill = this.bills[i]
+
+        if (bill < 50) {
+            percentage = 0.2
+        } else if (bill >= 50 && < 200) {
+            percentage = 0.15
+        } else {percentage = 0.1
+        }
+
+        tips = bill * percentage;
+        
+
     }
 }
