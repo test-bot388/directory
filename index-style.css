@@ -96,6 +96,11 @@ img {
     bottom: 0px;
     right: 0px;
 }
+.dropdown ul {
+    max-height: 300px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
 .dropbtn {
     color: rgb(90, 90, 90);
     padding: 5px;
