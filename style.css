@@ -93,13 +93,16 @@ h2 {
 @media only screen and (max-width: 400px) {
 
     .hero {
-        background-position: center -670px;
+        background-position: center -700px;
     
         height: 30vh;
     }
 
     h1 {
         background-color: red;
+    }
+    .gallery-video {
+        width: 40%;
     }
 
 
