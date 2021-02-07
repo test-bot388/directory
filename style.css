@@ -87,6 +87,17 @@ h2 {
     font-family: "helvetica";
 }
 
+/*Gif Gallery*/
+.gif-gallery {
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+}
+.gif {
+    height: 400px;
+    width: auto;
+}
+
 
 @media only screen and (max-width: 400px) {
 
