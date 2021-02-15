@@ -108,6 +108,7 @@ img {
     font-family: helvetica;
     border: none;
     border-radius: 3px;
+    background-color: rgb(rgb(221, 221, 221));
 
 }
 .dropdown-content {
@@ -138,11 +139,10 @@ img {
     display: block;
 }
 .search {
-    display: block;
+    display: inline-block;
     margin: 5;
     float: right;
     right: 15;
-    position: relative;
 
 }
 
