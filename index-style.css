@@ -1,160 +1,151 @@
 body {
-    background-color: rgb(255, 170, 192);
-    width: 100vw;
-    position: static;
-    display: block;
-    margin: 0px;
+  background-color: rgb(255, 170, 192);
+  width: 100vw;
+  position: static;
+  display: block;
+  margin: 0px;
 }
 .index-header {
-    background-color: rgb(248, 248, 248);
-    width: 100%;
-    padding: 0px;
-    position: relative;
-    justify-content: center;
-    text-align: center;
-   
+  background-color: rgb(248, 248, 248);
+  width: 100%;
+  padding: 0px;
+  position: relative;
+  justify-content: center;
+  text-align: center;
 }
 .category {
-    display: flex;
-    height: auto;
-    flex-wrap: wrap;
-    justify-content: center;
-
+  display: flex;
+  height: auto;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .index-gallery {
-    float: center;
-    width: 190px;
-    height: 330px;
-    overflow: hidden;
-    justify-content: center;
-    align-items: center;
-    margin: 7px;
-    display: flex;
+  float: center;
+  width: 190px;
+  height: 330px;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  margin: 7px;
+  display: flex;
 }
 .index-gallery img {
-    position: relative;
-    height: 334px;
-    width: auto;
-    max-height: 700px;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
+  position: relative;
+  height: 334px;
+  width: auto;
+  max-height: 700px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }
 h1 {
-    font-family: "helvetica";
-    text-align: center;
-    align-content: center;
-    display: block;
-    position: relative;
-    margin: 0px;
-    
+  font-family: "helvetica";
+  text-align: center;
+  align-content: center;
+  display: block;
+  position: relative;
+  margin: 0px;
 }
 
 .index-h2 {
-    font-family: "helvetica";
-    text-align: center;
-    position: relative;
-    justify-content: center;
-    align-content: center;
-    font-size: 36px;
+  font-family: "helvetica";
+  text-align: center;
+  position: relative;
+  justify-content: center;
+  align-content: center;
+  font-size: 36px;
 }
 img {
-    padding: 5px;
-    width: 100%;
-    height: auto;
+  padding: 5px;
+  width: 100%;
+  height: auto;
 }
-
 
 /******** header ******/
 
 .header {
-    display: block;
-    position: relative;
+  display: block;
+  position: relative;
 
-    background-image: url(http://1.bp.blogspot.com/-pxZ3YYhwJJE/UyBC6CSHsSI/AAAAAAAAMHw/qM_ByUsZV6A/s1600/21.jpg);
-    background-position: center +30%;
-    
-    margin: 0px;
-    height: 40vh;
+  background-image: url(http://1.bp.blogspot.com/-pxZ3YYhwJJE/UyBC6CSHsSI/AAAAAAAAMHw/qM_ByUsZV6A/s1600/21.jpg);
+  background-position: center + 30%;
 
+  margin: 0px;
+  height: 40vh;
 }
 .forehead {
-    display: block;
-    position: fixed;
-    z-index: 1;
-    width: 100%;
-    top: 0px;
+  display: block;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  top: 0px;
 
-    background-color: black;
-    padding: 6px;
+  background-color: black;
+  padding: 6px;
 }
 .dropdown {
-    position: relative;
-    display: inline-block;
-    margin: 5px;
-    bottom: 0px;
-    right: 0px;
+  position: relative;
+  display: inline-block;
+  margin: 5px;
+  bottom: 0px;
+  right: 0px;
 }
 .dropdown ul {
-    max-height: 300px;
-    overflow-x: hidden;
-    overflow-y: auto;
+  max-height: 300px;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 .dropbtn {
-    color: rgb(90, 90, 90);
-    padding: 5px;
-    font-size: 18px;
-    font-family: helvetica;
-    border: none;
-    border-radius: 3px;
-    background-color: rgb(rgb(221, 221, 221));
-
+  color: rgb(90, 90, 90);
+  padding: 5px;
+  font-size: 18px;
+  font-family: helvetica;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(rgb(221, 221, 221));
 }
 .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: rgb(255, 255, 255);
-    min-width: 200px;
-    font-family: helvetica;
-    font-size: 18px;
-    z-index: 1;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+  display: none;
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  min-width: 200px;
+  font-family: helvetica;
+  font-size: 18px;
+  z-index: 1;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 .dropdown-content a {
-    color: black;
-    padding: 8px 8px;
-    display: block;
-    border-style: solid;
-    border-width: 1px;
-    border-color: rgb(134, 134, 134);
-    text-decoration: none;
+  color: black;
+  padding: 8px 8px;
+  display: block;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(134, 134, 134);
+  text-decoration: none;
 }
 .dropdown-content a:hover {
-    background-color: #ddd;
+  background-color: #ddd;
 }
 .dropdown:hover .dropdown-content {
-    display: block;
+  display: block;
 }
 .search {
-    display: inline-block;
-    margin: 5;
-    float: right;
-    right: 15;
-
+  display: inline-block;
+  margin: 5;
+  float: right;
+  right: 15;
 }
-
-
 
 /************** Mobile *****************/
 @media only screen and (max-width: 600px) {
-.header {
+  .header {
     background-size: 100vw;
-    background-position: center +25%;
-}
-.index-gallery {
+    background-position: center + 25%;
+  }
+  .index-gallery {
     height: 300px;
     width: 45%;
-}
+  }
 }
