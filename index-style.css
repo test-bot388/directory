@@ -68,10 +68,12 @@ img {
   position: relative;
 
   background-image: url(http://1.bp.blogspot.com/-pxZ3YYhwJJE/UyBC6CSHsSI/AAAAAAAAMHw/qM_ByUsZV6A/s1600/21.jpg);
-  background-position: center + 30%;
+  background-position: center + 40px;
+  background-attachment: fixed;
+  background-size: 100vw;
 
   margin: 0px;
-  height: 40vh;
+  height: 50vh;
 }
 .forehead {
   display: block;
@@ -86,7 +88,6 @@ img {
 .dropdown {
   position: relative;
   display: inline-block;
-  margin: 5px;
   bottom: 0px;
   right: 0px;
 }
@@ -96,13 +97,14 @@ img {
   overflow-y: auto;
 }
 .dropbtn {
-  color: rgb(90, 90, 90);
+  color: rgb(0, 0, 0);
   padding: 5px;
   font-size: 18px;
   font-family: helvetica;
   border: none;
   border-radius: 3px;
-  background-color: rgb(rgb(221, 221, 221));
+  background-color: rgb(221, 221, 221);
+  text-decoration: none;
 }
 .dropdown-content {
   display: none;
@@ -137,6 +139,7 @@ img {
   float: right;
   right: 15;
 }
+.btngif
 
 /************** Mobile *****************/
 @media only screen and (max-width: 600px) {
