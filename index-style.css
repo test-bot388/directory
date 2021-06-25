@@ -134,12 +134,11 @@ img {
   display: block;
 }
 .search {
-  display: inline-block;
+  display: block;
   margin: 5;
   float: right;
   right: 15;
 }
-.btngif
 
 /************** Mobile *****************/
 @media only screen and (max-width: 600px) {
