@@ -24,14 +24,15 @@ setBackground();
 console.log(hero);
 // Dynamically adding content
 
-const getPageObject = function (page) {
-  const pageObject = page.trim().toLowerCase().split(" ");
-  const secondWord = pageObject[1];
-  console.log(pageObject.join(""));
-  return pageObject;
+const camelCase = function (str) {
+  let strArray;
+  const pageObject = str.trim().toLowerCase().split(" ");
+  let toCapital = pageObject[1][0].toUpperCase();
+  const camelized = pageObject[0] + toCapital + pageObject[1].slice(1);
+  return camelized;
 };
 const thisPage = document.getElementsByTagName("h1")[0].innerHTML;
-const pageObject = getPageObject(thisPage);
+const pageObject = camelCase(thisPage);
 
 const videoBlock = document.querySelector(".gallery-video");
 const displayContent = function (links) {
@@ -45,8 +46,8 @@ const displayContent = function (links) {
     videoBlock.insertAdjacentHTML("afterbegin", html);
   });
 };
-console.log(thisPage, thisPage.videos);
-displayContent(thisPage.videos);
+console.log(camelCase(thisPage), tessaFowler.videos);
+displayContent(camelCase(thisPage).videos);
 
 ///////////////////////////////////////////////////
 ///////////All video links/////////////////////////
@@ -462,6 +463,30 @@ const tessaFowler = {
     [
       "https://www.xvideos.com/video60069213/tessa_fowler_dildo_titty_fuck",
       "https://thumb-lvlt.xhcdn.com/a/REYJsfehDOlcwIxKtcJjmA/016/870/180/320x240.4.jpg",
+    ],
+    [
+      "https://spankbang.com/500jo/video/tessa+fowler+strip+suck+and+titfuck+compilation",
+      "https://cdn.camwhores.tv/contents/videos_screenshots/6397000/6397131/preview.mp4.jpg",
+    ],
+    [
+      "https://thothub.to/videos/52743/tessa-fowler-dildo-titty-fuck/",
+      "https://thothub.to/get_file/0/fffb15d1f777f9452a4f8644c21af2f5/52000/52743/screenshots/1.jpg/",
+    ],
+    [
+      "https://spankbang.com/5agy6/video/tessa+fowler+titfuck+3",
+      "https://tb.sb-cd.com/t/8647165/8/6/w:500/t4-enh/i-can-die-happy.jpg",
+    ],
+    [
+      "https://spankbang.com/5aunp/video/tessa+fowler+titfuck+4",
+      "https://tb.sb-cd.com/t/8904373/8/9/w:500/t3-enh/tessa-fowler-titfuck-4.jpg",
+    ],
+    [
+      "https://spankbang.com/5ft9r/video/tessa+fowler+and+her+favorite+dildo+toy",
+      "https://lewdstars.com/wp-content/uploads/2021/04/Tessa-Fowler-Nude-Tits-Fucking-With-Big-Dildo-Porn-Video-Leaked-360x203.jpg",
+    ],
+    [
+      "https://spankbang.com/4vvha/video/tessa+fowler+titfuck+dildo",
+      "https://tb.sb-cd.com/t/8205598/8/2/w:1280/t6-enh/tessa-fowler-titfuck-dildo.jpg",
     ],
   ],
   photos: [],
