@@ -12,16 +12,16 @@ const backgroundLinks = [
   "https://i.pinimg.com/originals/35/c6/20/35c6209c6d2beefff323c03188c6e4c8.jpg",
   "https://jav-fetish.com/wp-content/uploads/2018/02/pppd00618pl-1.jpg",
   "https://javpornpics.com/dmm/hitomi-hitomi-tanaka/pppd00881/hd-hitomi-hitomi-tanaka-0.jpg",
+  "https://tb.sb-cd.com/t/8647165/8/6/w:500/t4-enh/i-can-die-happy.jpg",
 ];
 let backgroundIndex = Math.round(Math.random() * backgroundLinks.length);
-
 //dynamically set background image
 const hero = document.querySelector(".hero");
 const setBackground = function () {
-  hero.style.backgroundImage = backgroundLinks[backgroundIndex];
+  hero.style.backgroundImage = `url(${backgroundLinks[backgroundIndex]}`;
 };
 setBackground();
-console.log(hero);
+console.log(backgroundLinks[backgroundIndex]);
 // Dynamically adding content
 
 const camelCase = function (str) {
